@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.9.xsd">
+
+    <include file="ddl/user.sql" relativeToChangelogFile="true"/>
+    <include file="ddl/category.sql" relativeToChangelogFile="true"/>
+    <include file="ddl/product.sql" relativeToChangelogFile="true"/>
+    <include file="ddl/product_in_category.sql" relativeToChangelogFile="true"/>
+    <include file="ddl/role.sql" relativeToChangelogFile="true"/>
+    <include file="ddl/orders.sql" relativeToChangelogFile="true"/>
+    <include file="ddl/stock.sql" relativeToChangelogFile="true"/>
+    <include file="ddl/product_options.sql" relativeToChangelogFile="true"/>
+    <include file="ddl/option_sets.sql" relativeToChangelogFile="true"/>
+    <include file="ddl/product_price.sql" relativeToChangelogFile="true"/>
+    <include file="ddl/product_images.sql" relativeToChangelogFile="true"/>
+    <include file="ddl/leftovers_in_stock.sql" relativeToChangelogFile="true"/>
+    <include file="ddl/user_role.sql" relativeToChangelogFile="true"/>
+    <include file="ddl/order_items.sql" relativeToChangelogFile="true"/>
+</databaseChangeLog>
