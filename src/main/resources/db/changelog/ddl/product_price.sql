@@ -4,6 +4,6 @@
 create table product_price (
     product_price_id serial UNIQUE,
     product_id integer REFERENCES product(product_id),
-    option_set_uid text REFERENCES product(product_id),
+    option_set_uid text REFERENCES product(option_set_uid),
     price real
 );
